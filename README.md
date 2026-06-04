@@ -100,24 +100,8 @@ soc-labs
 
 ---
 
-## GitHub activity
-
-<div align="center">
-
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=inaparente&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=BFA7FF&text_color=E6EDF3&icon_color=BFA7FF" />
-
-<br/>
-
-<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=inaparente&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=BFA7FF&text_color=E6EDF3" />
-
-</div>
-
----
-
 <div align="center">
 
 ```txt
 quiet profile. loud progress.
-```
-
-</div>
+</div> ```
