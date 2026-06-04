@@ -82,7 +82,6 @@ Security awareness
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-111111?style=for-the-badge\&logo=hackthebox\&logoColor=BFA7FF)
 
 </div>
-
 ---
 
 ## Repositories in progress
@@ -104,4 +103,4 @@ soc-labs
 
 ```txt
 quiet profile. loud progress.
-</div> ```
+
