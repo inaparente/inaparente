@@ -22,9 +22,6 @@ Cybersecurity student focused on defensive security, networking, Linux, IAM and 
 
 Currently building a technical foundation through study notes, labs and documented practice.
 
-Not trying to look dangerous.
-Just learning how systems work.
-
 ---
 
 ## Current focus
