@@ -1,0 +1,6 @@
+<!doctype html>
+<meta charset="utf-8"><title>Foggiato — README preview</title>
+<style>body{background:#0d0d12;color:#ddd;max-width:1000px;margin:30px auto;padding:0 24px;font:15px sans-serif;line-height:1.6}img{max-width:100%}pre{background:#17131f;padding:16px;border:1px solid #39265a;border-radius:6px}code{color:#c9a7ff}h2{border-bottom:1px solid #392243;padding-bottom:8px}</style>
+<div id="app">Loading preview…</div>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>fetch('README.md').then(r=>r.text()).then(md=>document.querySelector('#app').innerHTML=marked.parse(md))</script>
