@@ -1,0 +1,59 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07070A"/>
+      <stop offset="0.55" stop-color="#0D0A15"/>
+      <stop offset="1" stop-color="#12091F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="90" y1="110" x2="680" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8CCFF"/>
+      <stop offset="0.45" stop-color="#A178FF"/>
+      <stop offset="1" stop-color="#6D3AE8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(895 260) rotate(90) scale(290 370)">
+      <stop stop-color="#7C4DFF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#7C4DFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#BFA7FF" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="520" rx="30" fill="url(#bg)"/>
+  <rect width="1200" height="520" rx="30" fill="url(#grid)"/>
+  <rect x="0" y="0" width="1200" height="520" rx="30" fill="url(#glow)"/>
+
+  <circle cx="65" cy="52" r="7" fill="#FF5F57"/>
+  <circle cx="89" cy="52" r="7" fill="#FEBC2E"/>
+  <circle cx="113" cy="52" r="7" fill="#28C840"/>
+  <text x="154" y="58" fill="#6F6A7A" font-size="18" font-family="monospace">~/profile — zsh</text>
+
+  <text x="74" y="142" fill="#8B8297" font-size="22" font-family="monospace">$ whoami</text>
+  <text x="74" y="208" fill="url(#accent)" font-size="72" font-weight="700" font-family="monospace">FOGGIATO</text>
+  <text x="78" y="252" fill="#D5CFE0" font-size="24" font-family="monospace">cybersecurity student / builder / linux user</text>
+
+  <text x="78" y="322" fill="#8B8297" font-size="20" font-family="monospace">$ cat focus.txt</text>
+  <text x="78" y="360" fill="#F3EEFF" font-size="22" font-family="monospace">linux  ·  networks  ·  cloud  ·  iam  ·  automation</text>
+
+  <text x="78" y="430" fill="#8B8297" font-size="20" font-family="monospace">$ echo "learning by building"</text>
+  <rect x="78" y="452" width="13" height="25" rx="2" fill="#BFA7FF"/>
+
+  <g opacity="0.95">
+    <circle cx="946" cy="254" r="128" stroke="#7F55F6" stroke-width="2" stroke-opacity="0.28"/>
+    <circle cx="946" cy="254" r="94" stroke="#BFA7FF" stroke-width="1.5" stroke-opacity="0.3"/>
+    <circle cx="946" cy="254" r="58" fill="#120F19" stroke="#BFA7FF" stroke-width="2" stroke-opacity="0.65"/>
+    <path d="M946 206L982 227V269L946 290L910 269V227L946 206Z" stroke="#D7C9FF" stroke-width="3"/>
+    <path d="M946 228L964 239V260L946 271L928 260V239L946 228Z" fill="#8D63F5" fill-opacity="0.36" stroke="#BFA7FF" stroke-width="2"/>
+    <line x1="946" y1="160" x2="946" y2="196" stroke="#7F55F6" stroke-width="2"/>
+    <line x1="946" y1="312" x2="946" y2="348" stroke="#7F55F6" stroke-width="2"/>
+    <line x1="852" y1="254" x2="888" y2="254" stroke="#7F55F6" stroke-width="2"/>
+    <line x1="1004" y1="254" x2="1040" y2="254" stroke="#7F55F6" stroke-width="2"/>
+  </g>
+
+  <text x="865" y="418" fill="#736A82" font-size="17" font-family="monospace">INAPARENTE://ACTIVE</text>
+
+  <rect x="1" y="1" width="1198" height="518" rx="29" stroke="#BFA7FF" stroke-opacity="0.12" stroke-width="2"/>
+</svg>
