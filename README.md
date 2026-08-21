@@ -1,104 +1,151 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="Foggiato banner" width="100%" />
+  <img src="./assets/profile-hero.svg" alt="Foggiato — cybersecurity student, builder and Linux user" width="100%" />
 </p>
 
 <div align="center">
 
-# Foggiato
+### learning systems by taking them apart, building them back, and asking too many questions.
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3500&pause=1000&color=BFA7FF&center=true&vCenter=true&width=620&lines=Cybersecurity+student;Defensive+security+%7C+Networks+%7C+Linux;Learning+systems+before+securing+them" alt="Typing SVG" />
+`cybersecurity` · `linux` · `networks` · `cloud` · `iam` · `automation`
+
+</div>
+
+---
+
+## `> about_me`
+
+I'm **Foggiato**, a cybersecurity student currently building a real technical foundation around **Linux, networking, cloud and Identity & Access Management**.
+
+I'm not here to pretend I already know everything in this profile. Most of what you see here represents something I'm **studying, testing, breaking, documenting or actively trying to understand better**.
+
+I learn best by turning ideas into actual projects — especially when they involve systems, automation, APIs, AI or something that probably did not need to become a project in the first place.
+
+```bash
+$ philosophy
+learn → build → break → understand → repeat
+```
+
+---
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### `> current_focus`
+
+```txt
+Linux & system fundamentals
+Networking
+Cloud foundations
+IAM
+Defensive security
+Security tooling
+Technical English
+```
+
+</td>
+<td width="50%" valign="top">
+
+### `> things_i_build`
+
+```txt
+Local automation
+AI integrations
+API experiments
+Linux tooling
+Small utilities
+Interfaces with personality
+Security study projects
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+## `> active_project`
+
+### JARVIS BRIDGE
+
+A personal project where I experiment with **voice interaction, local automation, APIs, AI, system integration and human-computer interaction**.
+
+It started as a simple idea and naturally became the kind of project where one feature creates three more problems to solve.
+
+```txt
+voice
+  └─ recognition
+      └─ intent
+          └─ automation
+              └─ system actions
+                  └─ "okay, now what if..."
+```
+
+---
+
+## `> stack_and_tools`
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Linux-0B0B0F?style=for-the-badge&logo=linux&logoColor=BFA7FF" />
+<img src="https://img.shields.io/badge/Ubuntu-0B0B0F?style=for-the-badge&logo=ubuntu&logoColor=BFA7FF" />
+<img src="https://img.shields.io/badge/Python-0B0B0F?style=for-the-badge&logo=python&logoColor=BFA7FF" />
+<img src="https://img.shields.io/badge/Git-0B0B0F?style=for-the-badge&logo=git&logoColor=BFA7FF" />
+<img src="https://img.shields.io/badge/GitHub-0B0B0F?style=for-the-badge&logo=github&logoColor=BFA7FF" />
+<img src="https://img.shields.io/badge/Bash-0B0B0F?style=for-the-badge&logo=gnubash&logoColor=BFA7FF" />
 
 <br/>
 
-`inaparente`
+<img src="https://img.shields.io/badge/Networking-0B0B0F?style=for-the-badge&logo=cisco&logoColor=BFA7FF" />
+<img src="https://img.shields.io/badge/Cloud-0B0B0F?style=for-the-badge&logo=icloud&logoColor=BFA7FF" />
+<img src="https://img.shields.io/badge/IAM-0B0B0F?style=for-the-badge&logo=auth0&logoColor=BFA7FF" />
+<img src="https://img.shields.io/badge/APIs-0B0B0F?style=for-the-badge&logo=fastapi&logoColor=BFA7FF" />
+<img src="https://img.shields.io/badge/AI_Automation-0B0B0F?style=for-the-badge&logo=openai&logoColor=BFA7FF" />
 
 </div>
 
----
-
-## About
-
-Cybersecurity student focused on defensive security, networking, Linux, IAM and SOC fundamentals.
-
-Currently building a technical foundation through study notes, labs and documented practice.
+<sub>These are technologies and areas I'm currently using, studying or exploring — not a claim of mastery.</sub>
 
 ---
 
-## Current focus
+## `> learning_path`
 
 ```txt
-Networks
-Linux
-Windows logs
-IAM
-SOC fundamentals
-Defensive security
-Technical documentation
+systems
+├── linux
+├── networking
+├── windows
+└── scripting
+
+security
+├── defensive fundamentals
+├── logs & monitoring
+├── iam
+└── soc concepts
+
+next
+└── cloud security
 ```
 
 ---
 
-## Learning path
+## `> outside_the_terminal`
 
-```txt
-Networks → Linux → Windows → Logs → IAM → SOC → Cloud Security
-```
+I'm also into **digital aesthetics, visual identity, Marvel, anime, music and geek culture**.
 
----
-
-## Study journal
-
-This profile is being built as a public learning journal.
-
-The goal is simple:
-
-```txt
-study → practice → document → improve
-```
-
-Current phase:
-
-```txt
-Introduction to Cybersecurity
-Networking fundamentals
-Basic system concepts
-Security awareness
-```
-
----
-
-## Tools & topics
-
-<div align="left">
-
-![Linux](https://img.shields.io/badge/Linux-111111?style=for-the-badge\&logo=linux\&logoColor=BFA7FF)
-![Windows](https://img.shields.io/badge/Windows-111111?style=for-the-badge\&logo=windows\&logoColor=BFA7FF)
-![Git](https://img.shields.io/badge/Git-111111?style=for-the-badge\&logo=git\&logoColor=BFA7FF)
-![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge\&logo=github\&logoColor=BFA7FF)
-![Markdown](https://img.shields.io/badge/Markdown-111111?style=for-the-badge\&logo=markdown\&logoColor=BFA7FF)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-111111?style=for-the-badge\&logo=hackthebox\&logoColor=BFA7FF)
-
-</div>
-
----
-
-## Repositories in progress
-
-```txt
-cybersecurity-learning-journal
-└── study notes, labs and learning roadmap
-
-networking-notes
-└── networking fundamentals and practical commands
-
-soc-labs
-└── defensive security labs and incident analysis
-```
+That usually leaks into the things I build. I like projects that work, but I also care about how they **feel, look and communicate personality**.
 
 ---
 
 <div align="center">
 
 ```txt
-quiet profile. loud progress.
+INAPARENTE://ONLINE
 
+curiosity > credentials
+progress > pretending
+```
+
+<sub>quiet profile. loud progress.</sub>
+
+</div>
