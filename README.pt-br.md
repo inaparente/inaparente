@@ -18,15 +18,15 @@
 
 ## `01 // sobre`
 
-Eu sou o **Foggiato**.
+E aí, eu sou o **Foggiato**.
 
-Estou construindo minha base em cibersegurança através de **Linux, redes, cloud, IAM e segurança defensiva** — com preferência por entender como os sistemas se comportam antes de tentar protegê-los.
+Tô montando minha base em cibersegurança aos poucos — **Linux, redes, cloud, IAM, segurança defensiva**. Gosto de entender como uma coisa realmente funciona antes de tentar defendê-la; pular essa etapa já me ferrou algumas vezes.
 
-A maior parte do que aprendo acaba virando algo tangível: um laboratório, uma automação, um experimento documentado, ou um projeto que começou com:
+O que eu aprendo raramente fica só na cabeça. Vira laboratório, script, experimento meio quebrado que eu tive que documentar só pra lembrar como consertei — geralmente porque em algum momento eu me perguntei:
 
-> **"será que eu consigo fazer isso funcionar?"**
+> **"beleza, mas será que eu consigo fazer isso funcionar de verdade?"**
 
-Não uso este perfil como uma lista de tecnologias que eu supostamente domino. É um registro do que estou **aprendendo, testando e construindo**.
+Isso aqui não é uma lista de tecnologias que eu domino. É mais um diário do que estou **aprendendo, testando e, aos poucos, acertando**.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -46,32 +46,32 @@ automation
 ai_integrations
 ```
 
-Minha direção atual está cada vez mais centrada em **IAM e Cloud Security**, apoiada por um entendimento mais forte de sistemas e redes.
+Ultimamente venho puxando mais pra **IAM e Cloud Security** — mas nada disso se sustenta sem uma base sólida em sistemas e redes, então é ali que boa parte do trabalho do dia a dia ainda acontece.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 ## `03 // como_aprendo`
 
-Aprendo melhor quando a teoria tem para onde ir.
+Teoria sozinha não gruda em mim — preciso de um lugar pra colocá-la em prática.
 
 ```text
 entender → testar → quebrar algo → descobrir o porquê
        → reconstruir direito → documentar o que importou
 ```
 
-Esse ciclo provavelmente explica a maioria dos meus repositórios.
+Dá uma olhada nos meus repositórios e você vai ver esse loop se repetindo.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 ## `04 // o_que_construo`
 
-Meus projetos costumam viver em algum lugar entre:
+Meus projetos costumam viver na sobreposição entre:
 
 ```text
 security · linux · automation · APIs · AI · interfaces · infrastructure
 ```
 
-Tenho interesse especial em sistemas onde peças diferentes precisam se comunicar de forma confiável, em vez de existirem como demos isoladas.
+O que realmente me prende é fazer peças diferentes conversarem de forma confiável — não mais uma demo isolada que só funciona na minha máquina.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -79,9 +79,9 @@ Tenho interesse especial em sistemas onde peças diferentes precisam se comunica
 
 Um desses experimentos virou o **Jarvis Bridge**.
 
-Começou como uma tentativa de construir um assistente de voz local e gradualmente virou um playground para interação por voz, automação local, APIs, integrações de IA, comportamento de sistema, tratamento de eventos, confiabilidade e interação humano ↔ máquina.
+Começou como um "deixa eu tentar construir um assistente de voz local" e foi silenciosamente virando um playground de interação por voz, automação local, APIs, integrações de IA, comportamento de sistema, tratamento de eventos, confiabilidade — basicamente todo jeito possível de um humano e uma máquina se entenderem mal.
 
-A parte interessante não é fingir que eu construí o JARVIS do Homem de Ferro. É tudo que eu tive que aprender por ter tentado.
+Não tô fingindo que construí o JARVIS. A parte interessante é tudo que eu tive que aprender só de tentar.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -115,15 +115,15 @@ approach: aprender → testar → documentar → repetir
 <img src="https://img.shields.io/badge/IAM-0D0D0D?style=for-the-badge&amp;logo=auth0&amp;logoColor=BFA7FF" alt="IAM" />
 </div>
 
-<sub>Essas são tecnologias e áreas com as quais estou trabalhando ou estudando ativamente — não uma lista de domínio já consolidado.</sub>
+<sub>Coisas com as quais estou trabalhando ou estudando ativamente agora — não uma coleção de selinhos.</sub>
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 ## `08 // fora_do_terminal`
 
-A tecnologia ocupa a maior parte da tela. O resto geralmente vai para **estética digital, identidade visual, música, Marvel, animes e qualquer ideia aleatória interessante o suficiente para virar um projeto**.
+Tecnologia come a maior parte da minha tela. O que sobra vai geralmente pra **estética digital, identidade visual, música, Marvel, animes e qualquer ideia aleatória que pareça valer a pena virar projeto**.
 
-Isso provavelmente explica por que até meus projetos técnicos raramente permanecem completamente utilitários.
+O que provavelmente explica por que até meus projetos técnicos raramente ficam puramente funcionais — não resisto e sempre acabo caprichando na aparência.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -131,9 +131,9 @@ Isso provavelmente explica por que até meus projetos técnicos raramente perman
 
 ### `quer saber o que eu realmente sei?`
 
-**Não confie só na bio.**
+**Não confie só na minha palavra.**
 
-Olhe os repositórios. Leia os commits. Veja o que estou construindo.
+Olha os repositórios. Lê os commits. Essa é a bio de verdade.
 
 <br/>
 

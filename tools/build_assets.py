@@ -19,12 +19,12 @@ OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
 
 # ── palette (sampled from assets/banner.png) ──────────────────────────────────
 C = {
-    "bg0": "#08060f",
-    "bg1": "#0d0819",
-    "panel": "#0a0714",
-    "panel2": "#120c22",
-    "line": "#241a3d",
-    "line_soft": "#191130",
+    "bg0": "#1a0e36",
+    "bg1": "#301866",
+    "panel": "#1d1040",
+    "panel2": "#2c1650",
+    "line": "#553391",
+    "line_soft": "#3a2566",
     "violet": "#8b5cf6",
     "purple": "#bfa7ff",
     "purple_dim": "#7c6aa6",
@@ -157,8 +157,8 @@ def head(w, h, title, extra_defs="", extra_style=""):
         f'<stop offset="0" stop-color="{C["bg0"]}"/><stop offset="0.55" stop-color="{C["bg1"]}"/>'
         f'<stop offset="1" stop-color="{C["bg0"]}"/></linearGradient>'
         f'<radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">'
-        f'<stop offset="0.5" stop-color="#000" stop-opacity="0"/>'
-        f'<stop offset="1" stop-color="#000" stop-opacity="0.55"/></radialGradient>'
+        f'<stop offset="0.5" stop-color="{C["bg0"]}" stop-opacity="0"/>'
+        f'<stop offset="1" stop-color="#0d0620" stop-opacity="0.5"/></radialGradient>'
         f'<pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">'
         f'<path d="M26 0H0V26" fill="none" stroke="{C["line_soft"]}" stroke-width="1"/></pattern>'
         f'<filter id="glow" x="-60%" y="-60%" width="220%" height="220%">'

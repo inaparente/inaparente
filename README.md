@@ -18,15 +18,15 @@
 
 ## `01 // about`
 
-I'm **Foggiato**.
+Hey, I'm **Foggiato**.
 
-I'm building my foundation in cybersecurity through **Linux, networking, cloud, IAM and defensive security** — with a preference for understanding how systems behave before trying to secure them.
+I'm putting together my base in cybersecurity — **Linux, networking, cloud, IAM, defensive security** — one piece at a time. I like knowing how something actually works before I try to defend it; skipping that step has burned me before.
 
-Most of what I learn eventually turns into something tangible: a lab, an automation, a documented experiment, or a project that started with:
+Most of what I learn doesn't stay in my head for long. It turns into a lab, a script, a half-broken experiment I had to document just to remember how I fixed it — usually because at some point I asked myself:
 
-> **"can I actually make this work?"**
+> **"okay, but can I actually make this work?"**
 
-I don't use this profile as a list of technologies I supposedly mastered. It's a record of what I'm **learning, testing and building**.
+This isn't a list of tech I've mastered. It's closer to a logbook of what I'm **learning, testing, and slowly getting right**.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -46,42 +46,42 @@ automation
 ai_integrations
 ```
 
-My current direction is increasingly centered around **IAM and Cloud Security**, supported by a stronger understanding of systems and networks.
+Lately I've been pulled more and more toward **IAM and Cloud Security** — but none of that sticks without solid ground in systems and networking first, so that's where a lot of the daily work still happens.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 ## `03 // how_i_learn`
 
-I learn better when theory has somewhere to go.
+Theory alone doesn't stick with me — I need somewhere to put it.
 
 ```text
 understand → test → break something → figure out why
        → rebuild it properly → document what mattered
 ```
 
-That cycle probably explains most of my repositories.
+Look through my repos and you'll see that loop over and over.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 ## `04 // things_i_build`
 
-My projects usually live somewhere between:
+My projects tend to live in the overlap between:
 
 ```text
 security · linux · automation · APIs · AI · interfaces · infrastructure
 ```
 
-I'm especially interested in systems where different pieces have to communicate reliably instead of existing as isolated demos.
+What actually hooks me is getting different pieces to talk to each other reliably — not another isolated demo that only works on my machine.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 ## `05 // jarvis_bridge`
 
-One of those experiments became **Jarvis Bridge**.
+One of those experiments turned into **Jarvis Bridge**.
 
-It started as an attempt to build a local voice assistant and gradually turned into a playground for voice interaction, local automation, APIs, AI integrations, system behavior, event handling, reliability and human ↔ machine interaction.
+It started as "let me try building a local voice assistant" and quietly turned into a playground for voice interaction, local automation, APIs, AI integrations, system behavior, event handling, reliability — basically every way a human and a machine can misunderstand each other.
 
-The interesting part isn't pretending I built JARVIS from Iron Man. It's everything I had to learn because I tried.
+I'm not pretending I built JARVIS. The interesting part is everything I had to learn just from trying.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -115,15 +115,15 @@ approach: learn → test → document → repeat
 <img src="https://img.shields.io/badge/IAM-0D0D0D?style=for-the-badge&amp;logo=auth0&amp;logoColor=BFA7FF" alt="IAM" />
 </div>
 
-<sub>These are technologies and areas I'm actively working with or studying — not a checklist of claimed expertise.</sub>
+<sub>Stuff I'm actively working with or studying right now — not a badge collection.</sub>
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 ## `08 // outside_the_terminal`
 
-Technology takes most of the screen time. The rest usually goes to **digital aesthetics, visual identity, music, Marvel, anime and whatever random idea looks interesting enough to turn into a project**.
+Tech eats most of my screen time. What's left usually goes to **digital aesthetics, visual identity, music, Marvel, anime, and whatever random idea seems worth turning into a project**.
 
-That probably explains why even my technical projects rarely stay completely utilitarian.
+Which is probably why even my technical projects rarely stay purely functional — I can't help dressing them up a little.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -131,9 +131,9 @@ That probably explains why even my technical projects rarely stay completely uti
 
 ### `want to know what I actually know?`
 
-**Don't take the bio at face value.**
+**Don't take my word for it.**
 
-Look at the repositories. Read the commits. See what I'm building.
+Check the repos. Read the commits. That's the real bio.
 
 <br/>
 
