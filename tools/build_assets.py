@@ -19,20 +19,20 @@ OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
 
 # ── palette (sampled from assets/banner.png) ──────────────────────────────────
 C = {
-    "bg0": "#1a0e36",
-    "bg1": "#301866",
-    "panel": "#1d1040",
-    "panel2": "#2c1650",
-    "line": "#553391",
-    "line_soft": "#3a2566",
-    "violet": "#8b5cf6",
-    "purple": "#bfa7ff",
-    "purple_dim": "#7c6aa6",
-    "text": "#efeaf8",
-    "muted": "#6d6190",
-    "mint": "#5eead4",
-    "amber": "#f5b544",
-    "rose": "#f472b6",
+    "bg0": "#0a0a0a",
+    "bg1": "#1c1c1c",
+    "panel": "#0d0d0d",
+    "panel2": "#181818",
+    "line": "#3d3d3d",
+    "line_soft": "#242424",
+    "violet": "#b0b0b0",
+    "purple": "#ffffff",
+    "purple_dim": "#9c9c9c",
+    "text": "#d6d6d6",
+    "muted": "#6e6e6e",
+    "mint": "#ffffff",
+    "amber": "#9a9a9a",
+    "rose": "#525252",
 }
 
 MONO = "ui-monospace,'SFMono-Regular','JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace"
@@ -158,7 +158,7 @@ def head(w, h, title, extra_defs="", extra_style=""):
         f'<stop offset="1" stop-color="{C["bg0"]}"/></linearGradient>'
         f'<radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">'
         f'<stop offset="0.5" stop-color="{C["bg0"]}" stop-opacity="0"/>'
-        f'<stop offset="1" stop-color="#0d0620" stop-opacity="0.5"/></radialGradient>'
+        f'<stop offset="1" stop-color="#000000" stop-opacity="0.5"/></radialGradient>'
         f'<pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">'
         f'<path d="M26 0H0V26" fill="none" stroke="{C["line_soft"]}" stroke-width="1"/></pattern>'
         f'<filter id="glow" x="-60%" y="-60%" width="220%" height="220%">'
@@ -248,9 +248,11 @@ def status_chip_width(label, state="ok", fs=13):
     return _CHIP_PAD_L + label_w + _CHIP_GAP + mark_w + _CHIP_PAD_R
 
 
+_CHIP_STATE_TONES = {"ok": "#f0f0f0", "dev": "#b5b5b5", "warn": "#8a8a8a", "off": "#5a5a5a"}
+
+
 def status_chip(x, y, label, state="ok", fs=13):
-    colors = {"ok": C["mint"], "warn": C["amber"], "dev": C["purple"], "off": C["muted"]}
-    col = colors.get(state, C["mint"])
+    col = _CHIP_STATE_TONES.get(state, "#f0f0f0")
     mark = _CHIP_MARKS.get(state, "OK")
     mark_fs = fs - 2
     label_w = len(label) * cw(fs)

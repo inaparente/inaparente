@@ -1,5 +1,3 @@
-<p align="center"><img src="./assets/banner.png" alt="Foggiato — systems, security and automation" width="100%" /></p>
-
 <div align="center">
 
 # FOGGIATO
@@ -107,12 +105,12 @@ approach: aprender → testar → documentar → repetir
 ## `07 // stack_em_progresso`
 
 <div align="center">
-<img src="https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&amp;logo=linux&amp;logoColor=BFA7FF" alt="Linux" />
-<img src="https://img.shields.io/badge/Python-0D0D0D?style=for-the-badge&amp;logo=python&amp;logoColor=BFA7FF" alt="Python" />
-<img src="https://img.shields.io/badge/Git-0D0D0D?style=for-the-badge&amp;logo=git&amp;logoColor=BFA7FF" alt="Git" />
-<img src="https://img.shields.io/badge/GitHub-0D0D0D?style=for-the-badge&amp;logo=github&amp;logoColor=BFA7FF" alt="GitHub" />
-<img src="https://img.shields.io/badge/Cloud-0D0D0D?style=for-the-badge&amp;logo=icloud&amp;logoColor=BFA7FF" alt="Cloud" />
-<img src="https://img.shields.io/badge/IAM-0D0D0D?style=for-the-badge&amp;logo=auth0&amp;logoColor=BFA7FF" alt="IAM" />
+<img src="https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&amp;logo=linux&amp;logoColor=E5E5E5" alt="Linux" />
+<img src="https://img.shields.io/badge/Python-0D0D0D?style=for-the-badge&amp;logo=python&amp;logoColor=E5E5E5" alt="Python" />
+<img src="https://img.shields.io/badge/Git-0D0D0D?style=for-the-badge&amp;logo=git&amp;logoColor=E5E5E5" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-0D0D0D?style=for-the-badge&amp;logo=github&amp;logoColor=E5E5E5" alt="GitHub" />
+<img src="https://img.shields.io/badge/Cloud-0D0D0D?style=for-the-badge&amp;logo=icloud&amp;logoColor=E5E5E5" alt="Cloud" />
+<img src="https://img.shields.io/badge/IAM-0D0D0D?style=for-the-badge&amp;logo=auth0&amp;logoColor=E5E5E5" alt="IAM" />
 </div>
 
 <sub>Coisas com as quais estou trabalhando ou estudando ativamente agora — não uma coleção de selinhos.</sub>
