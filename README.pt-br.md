@@ -16,15 +16,13 @@
 
 ## `01 // sobre`
 
-E aí, eu sou o **Foggiato**.
+Salve, eu sou o **Pedro Foggiato**, bem-vindo(a) ao meu perfil!
 
-Tô montando minha base em cibersegurança aos poucos — **Linux, redes, cloud, IAM, segurança defensiva**. Gosto de entender como uma coisa realmente funciona antes de tentar defendê-la; pular essa etapa já me ferrou algumas vezes.
+Estou construindo, aos poucos, minha base de conhecimento em DevSecOps: Linux, redes, cloud, IAM, AWS, segurança defensiva e entendimento de como ataques realmente funcionam. Gosto de ir a fundo pra entender um problema ou sistema, é isso que me ensina a usá-lo e a defendê-lo. Essa curiosidade já me ferrou algumas vezes, mas segue o jogo:
 
-O que eu aprendo raramente fica só na cabeça. Vira laboratório, script, experimento meio quebrado que eu tive que documentar só pra lembrar como consertei — geralmente porque em algum momento eu me perguntei:
+De cada lab, script ou experimento eu costumo sair documentando, geralmente porque me perguntei "beleza, mas será que eu consigo fazer isso funcionar de verdade?"
 
-> **"beleza, mas será que eu consigo fazer isso funcionar de verdade?"**
-
-Isso aqui não é uma lista de tecnologias que eu domino. É mais um diário do que estou **aprendendo, testando e, aos poucos, acertando**.
+Isso aqui, por enquanto, está longe de ser uma lista de tecnologias que eu domino. É mais um diário do que estou **aprendendo, testando e, aos poucos, ACERTANDO**. Errar também é bem notório por aqui, rs.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -44,20 +42,20 @@ automation
 ai_integrations
 ```
 
-Ultimamente venho puxando mais pra **IAM e Cloud Security** — mas nada disso se sustenta sem uma base sólida em sistemas e redes, então é ali que boa parte do trabalho do dia a dia ainda acontece.
+Ultimamente tenho puxado mais para **IAM e Cloud Security**, mas nada disso se sustenta sem uma base sólida em sistemas e redes. É ali que boa parte do trabalho do dia a dia ainda acontece.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 ## `03 // como_aprendo`
 
-Teoria sozinha não gruda em mim — preciso de um lugar pra colocá-la em prática.
+Teoria sozinha não gruda em mim, preciso de um lugar para colocar esse conhecimento na massa.
 
 ```text
 entender → testar → quebrar algo → descobrir o porquê
        → reconstruir direito → documentar o que importou
 ```
 
-Dá uma olhada nos meus repositórios e você vai ver esse loop se repetindo.
+Dá uma olhada nos meus repositórios: você vai ver esse loop se repetindo, com certeza.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -69,7 +67,7 @@ Meus projetos costumam viver na sobreposição entre:
 security · linux · automation · APIs · AI · interfaces · infrastructure
 ```
 
-O que realmente me prende é fazer peças diferentes conversarem de forma confiável — não mais uma demo isolada que só funciona na minha máquina.
+O que realmente me prende é fazer peças diferentes conversarem de forma confiável, não mais uma demo isolada que só roda na minha máquina.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -77,9 +75,9 @@ O que realmente me prende é fazer peças diferentes conversarem de forma confi�
 
 Um desses experimentos virou o **Jarvis Bridge**.
 
-Começou como um "deixa eu tentar construir um assistente de voz local" e foi silenciosamente virando um playground de interação por voz, automação local, APIs, integrações de IA, comportamento de sistema, tratamento de eventos, confiabilidade — basicamente todo jeito possível de um humano e uma máquina se entenderem mal.
+Começou como um "deixa eu tentar construir um assistente de voz local" e foi silenciosamente virando um playground de interação por voz, automação local, APIs, integrações de IA, comportamento de sistema, tratamento de eventos e confiabilidade, basicamente todo jeito possível de um humano e uma máquina se entenderem mal.
 
-Não tô fingindo que construí o JARVIS. A parte interessante é tudo que eu tive que aprender só de tentar.
+Não finjo que construí o JARVIS do Homem de Ferro. A parte interessante é tudo que eu tive que aprender só de tentar.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -105,23 +103,23 @@ approach: aprender → testar → documentar → repetir
 ## `07 // stack_em_progresso`
 
 <div align="center">
-<img src="https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&amp;logo=linux&amp;logoColor=E5E5E5" alt="Linux" />
-<img src="https://img.shields.io/badge/Python-0D0D0D?style=for-the-badge&amp;logo=python&amp;logoColor=E5E5E5" alt="Python" />
-<img src="https://img.shields.io/badge/Git-0D0D0D?style=for-the-badge&amp;logo=git&amp;logoColor=E5E5E5" alt="Git" />
-<img src="https://img.shields.io/badge/GitHub-0D0D0D?style=for-the-badge&amp;logo=github&amp;logoColor=E5E5E5" alt="GitHub" />
-<img src="https://img.shields.io/badge/Cloud-0D0D0D?style=for-the-badge&amp;logo=icloud&amp;logoColor=E5E5E5" alt="Cloud" />
-<img src="https://img.shields.io/badge/IAM-0D0D0D?style=for-the-badge&amp;logo=auth0&amp;logoColor=E5E5E5" alt="IAM" />
+<img src="https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&logo=linux&logoColor=E5E5E5" alt="Linux" />
+<img src="https://img.shields.io/badge/Python-0D0D0D?style=for-the-badge&logo=python&logoColor=E5E5E5" alt="Python" />
+<img src="https://img.shields.io/badge/Git-0D0D0D?style=for-the-badge&logo=git&logoColor=E5E5E5" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-0D0D0D?style=for-the-badge&logo=github&logoColor=E5E5E5" alt="GitHub" />
+<img src="https://img.shields.io/badge/Cloud-0D0D0D?style=for-the-badge&logo=icloud&logoColor=E5E5E5" alt="Cloud" />
+<img src="https://img.shields.io/badge/IAM-0D0D0D?style=for-the-badge&logo=auth0&logoColor=E5E5E5" alt="IAM" />
 </div>
 
-<sub>Coisas com as quais estou trabalhando ou estudando ativamente agora — não uma coleção de selinhos.</sub>
+<sub>Coisas com as quais estou trabalhando ou estudando ativamente agora, não uma coleção de selinhos.</sub>
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 ## `08 // fora_do_terminal`
 
-Tecnologia come a maior parte da minha tela. O que sobra vai geralmente pra **estética digital, identidade visual, música, Marvel, animes e qualquer ideia aleatória que pareça valer a pena virar projeto**.
+Tecnologia consome a maior parte da minha tela. O que sobra vai geralmente para **estética digital, identidade visual, música, Marvel, animes e qualquer ideia aleatória que pareça valer a pena virar projeto**.
 
-O que provavelmente explica por que até meus projetos técnicos raramente ficam puramente funcionais — não resisto e sempre acabo caprichando na aparência.
+O que provavelmente explica por que até meus projetos técnicos raramente ficam puramente funcionais: não resisto e sempre acabo caprichando na aparência.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 

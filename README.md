@@ -16,15 +16,13 @@
 
 ## `01 // about`
 
-Hey, I'm **Foggiato**.
+Hey, I'm **Pedro Foggiato**, welcome to my profile!
 
-I'm putting together my base in cybersecurity — **Linux, networking, cloud, IAM, defensive security** — one piece at a time. I like knowing how something actually works before I try to defend it; skipping that step has burned me before.
+I'm building, piece by piece, my base of knowledge in DevSecOps: Linux, networking, cloud, IAM, AWS, defensive security, and understanding how attacks actually work. I like digging deep to understand a problem or a system, that's what teaches me how to use it and how to defend it. That curiosity has already burned me a few times, but here we go anyway:
 
-Most of what I learn doesn't stay in my head for long. It turns into a lab, a script, a half-broken experiment I had to document just to remember how I fixed it — usually because at some point I asked myself:
+Every lab, script, or experiment I try usually ends up documented, mostly because at some point I asked myself "okay, but can I actually make this work for real?"
 
-> **"okay, but can I actually make this work?"**
-
-This isn't a list of tech I've mastered. It's closer to a logbook of what I'm **learning, testing, and slowly getting right**.
+For now, this is far from a list of technologies I've mastered. It's more of a logbook of what I'm **learning, testing, and slowly getting RIGHT**. Getting things wrong is pretty notorious around here too, lol.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -44,20 +42,20 @@ automation
 ai_integrations
 ```
 
-Lately I've been pulled more and more toward **IAM and Cloud Security** — but none of that sticks without solid ground in systems and networking first, so that's where a lot of the daily work still happens.
+Lately I've been leaning more toward **IAM and Cloud Security**, but none of that holds up without a solid base in systems and networking. That's still where most of the day to day work happens.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 ## `03 // how_i_learn`
 
-Theory alone doesn't stick with me — I need somewhere to put it.
+Theory alone doesn't stick with me, I need somewhere to put it into practice.
 
 ```text
 understand → test → break something → figure out why
        → rebuild it properly → document what mattered
 ```
 
-Look through my repos and you'll see that loop over and over.
+Take a look at my repos: you'll see that loop repeating itself, for sure.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -69,7 +67,7 @@ My projects tend to live in the overlap between:
 security · linux · automation · APIs · AI · interfaces · infrastructure
 ```
 
-What actually hooks me is getting different pieces to talk to each other reliably — not another isolated demo that only works on my machine.
+What actually hooks me is getting different pieces to talk to each other reliably, not another isolated demo that only runs on my machine.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -77,9 +75,9 @@ What actually hooks me is getting different pieces to talk to each other reliabl
 
 One of those experiments turned into **Jarvis Bridge**.
 
-It started as "let me try building a local voice assistant" and quietly turned into a playground for voice interaction, local automation, APIs, AI integrations, system behavior, event handling, reliability — basically every way a human and a machine can misunderstand each other.
+It started as "let me try building a local voice assistant" and quietly turned into a playground for voice interaction, local automation, APIs, AI integrations, system behavior, event handling and reliability, basically every possible way for a human and a machine to misunderstand each other.
 
-I'm not pretending I built JARVIS. The interesting part is everything I had to learn just from trying.
+I'm not pretending I built Iron Man's JARVIS. The interesting part is everything I had to learn just from trying.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -105,23 +103,23 @@ approach: learn → test → document → repeat
 ## `07 // stack_in_progress`
 
 <div align="center">
-<img src="https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&amp;logo=linux&amp;logoColor=E5E5E5" alt="Linux" />
-<img src="https://img.shields.io/badge/Python-0D0D0D?style=for-the-badge&amp;logo=python&amp;logoColor=E5E5E5" alt="Python" />
-<img src="https://img.shields.io/badge/Git-0D0D0D?style=for-the-badge&amp;logo=git&amp;logoColor=E5E5E5" alt="Git" />
-<img src="https://img.shields.io/badge/GitHub-0D0D0D?style=for-the-badge&amp;logo=github&amp;logoColor=E5E5E5" alt="GitHub" />
-<img src="https://img.shields.io/badge/Cloud-0D0D0D?style=for-the-badge&amp;logo=icloud&amp;logoColor=E5E5E5" alt="Cloud" />
-<img src="https://img.shields.io/badge/IAM-0D0D0D?style=for-the-badge&amp;logo=auth0&amp;logoColor=E5E5E5" alt="IAM" />
+<img src="https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&logo=linux&logoColor=E5E5E5" alt="Linux" />
+<img src="https://img.shields.io/badge/Python-0D0D0D?style=for-the-badge&logo=python&logoColor=E5E5E5" alt="Python" />
+<img src="https://img.shields.io/badge/Git-0D0D0D?style=for-the-badge&logo=git&logoColor=E5E5E5" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-0D0D0D?style=for-the-badge&logo=github&logoColor=E5E5E5" alt="GitHub" />
+<img src="https://img.shields.io/badge/Cloud-0D0D0D?style=for-the-badge&logo=icloud&logoColor=E5E5E5" alt="Cloud" />
+<img src="https://img.shields.io/badge/IAM-0D0D0D?style=for-the-badge&logo=auth0&logoColor=E5E5E5" alt="IAM" />
 </div>
 
-<sub>Stuff I'm actively working with or studying right now — not a badge collection.</sub>
+<sub>Stuff I'm actively working with or studying right now, not a badge collection.</sub>
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 ## `08 // outside_the_terminal`
 
-Tech eats most of my screen time. What's left usually goes to **digital aesthetics, visual identity, music, Marvel, anime, and whatever random idea seems worth turning into a project**.
+Tech eats up most of my screen time. What's left usually goes to **digital aesthetics, visual identity, music, Marvel, anime, and whatever random idea seems worth turning into a project**.
 
-Which is probably why even my technical projects rarely stay purely functional — I can't help dressing them up a little.
+Which is probably why even my technical projects rarely stay purely functional: I can't help dressing them up a little.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
