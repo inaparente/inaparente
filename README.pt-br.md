@@ -2,8 +2,6 @@
 
 # FOGGIATO
 
-### `systems · security · automation`
-
 <sub>`lang:` [EN](./README.md) · **PT-BR**</sub>
 
 <img src="./assets/typing-signal.svg" alt="Sinal de terminal animado" width="100%" />
@@ -68,8 +66,6 @@ Dá uma olhada nos meus repositórios: você vai ver esse loop se repetindo, com
 <img src="https://img.shields.io/badge/IAM-0D0D0D?style=for-the-badge&logo=auth0&logoColor=E5E5E5" alt="IAM" />
 </div>
 
-<sub>Coisas com as quais estou trabalhando ou estudando ativamente agora, não uma coleção de selinhos.</sub>
-
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 ## `04 // fora_do_terminal`
@@ -81,14 +77,6 @@ O que provavelmente explica por que até meus projetos técnicos raramente ficam
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 <div align="center">
-
-### `quer saber o que eu realmente sei?`
-
-**Não confie só na minha palavra.**
-
-Olha os repositórios. Lê os commits. Essa é a bio de verdade.
-
-<br/>
 
 <img src="./assets/signal-footer.svg" alt="Assinatura animada, FOGG, sempre em construção" width="100%" />
 

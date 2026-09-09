@@ -2,8 +2,6 @@
 
 # FOGGIATO
 
-### `systems · security · automation`
-
 <sub>`lang:` **EN** · [PT-BR](./README.pt-br.md)</sub>
 
 <img src="./assets/typing-signal.svg" alt="Animated terminal signal" width="100%" />
@@ -68,8 +66,6 @@ Take a look at my repos: you'll see that loop repeating itself, for sure.
 <img src="https://img.shields.io/badge/IAM-0D0D0D?style=for-the-badge&logo=auth0&logoColor=E5E5E5" alt="IAM" />
 </div>
 
-<sub>Stuff I'm actively working with or studying right now, not a badge collection.</sub>
-
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 ## `04 // outside_the_terminal`
@@ -81,14 +77,6 @@ Which is probably why even my technical projects rarely stay purely functional: 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 <div align="center">
-
-### `want to know what I actually know?`
-
-**Don't take my word for it.**
-
-Check the repos. Read the commits. That's the real bio.
-
-<br/>
 
 <img src="./assets/signal-footer.svg" alt="Animated signature, FOGG, always under construction" width="100%" />
 
