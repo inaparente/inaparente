@@ -79,25 +79,7 @@ I'm not pretending I built Iron Man's JARVIS. The interesting part is everything
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## `06 // currently`
-
-```yaml
-status: building
-primary_environment: Linux
-security_direction:
-  - IAM
-  - Cloud Security
-  - Defensive Security
-improving:
-  - Networking
-  - Python
-  - System Administration
-  - English
-```
-
-<img src="./assets/section-divider.svg" alt="" width="100%" />
-
-## `07 // stack_in_progress`
+## `06 // stack_in_progress`
 
 <div align="center">
 <img src="https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&logo=linux&logoColor=E5E5E5" alt="Linux" />
@@ -112,7 +94,7 @@ improving:
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## `08 // outside_the_terminal`
+## `07 // outside_the_terminal`
 
 Tech eats up most of my screen time. What's left usually goes to **digital aesthetics, visual identity, music, Marvel, anime, and whatever random idea seems worth turning into a project**.
 

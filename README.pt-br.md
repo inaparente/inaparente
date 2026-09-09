@@ -79,25 +79,7 @@ Não finjo que construí o JARVIS do Homem de Ferro. A parte interessante é tud
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## `06 // atualmente`
-
-```yaml
-status: building
-primary_environment: Linux
-security_direction:
-  - IAM
-  - Cloud Security
-  - Defensive Security
-improving:
-  - Networking
-  - Python
-  - System Administration
-  - English
-```
-
-<img src="./assets/section-divider.svg" alt="" width="100%" />
-
-## `07 // stack_em_progresso`
+## `06 // stack_em_progresso`
 
 <div align="center">
 <img src="https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&logo=linux&logoColor=E5E5E5" alt="Linux" />
@@ -112,7 +94,7 @@ improving:
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## `08 // fora_do_terminal`
+## `07 // fora_do_terminal`
 
 Tecnologia consome a maior parte da minha tela. O que sobra vai geralmente para **estética digital, identidade visual, música, Marvel, animes e qualquer ideia aleatória que pareça valer a pena virar projeto**.
 
