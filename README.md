@@ -26,8 +26,6 @@ For now, this is far from a list of technologies I've mastered. It's more of a l
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-<img src="./assets/system-pulse.svg" alt="Animated systems pulse" width="100%" />
-
 ## `02 // current_focus`
 
 ```bash
@@ -95,7 +93,6 @@ improving:
   - Python
   - System Administration
   - English
-approach: learn → test → document → repeat
 ```
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />

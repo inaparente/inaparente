@@ -338,65 +338,7 @@ def build_hero():
     return s
 
 
-# ── asset 2: system pulse — layered signal / network monitor ─────────────────
-
-def build_pulse():
-    w, h = 1200, 220
-    cycle = 9.0
-    s = head(w, h, "fogg system pulse — layered telemetry")
-    s += constellation(w, h, n=26, seed=11, opacity=0.35, link=110)
-    s += scanline_sweep(w, h, cycle=8, band=60, opacity=0.06)
-
-    px, py, pw, ph = 24, 20, w - 48, h - 40
-    s += (f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="12" '
-          f'fill="{C["panel"]}" fill-opacity="0.5" stroke="{C["line"]}"/>')
-    s += corner_brackets(px, py, pw, ph, size=20)
-
-    s += txt(px + 20, py + 28, "TELEMETRY // live", fs=12, fill=C["muted"], ls=1.5)
-    s += (f'<circle cx="{px + pw - 24}" cy="{py + 23}" r="4" fill="{C["mint"]}">'
-          f'<animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>')
-    s += txt(px + pw - 34, py + 28, "STREAMING", fs=11, fill=C["mint"], anchor="end", ls=1)
-
-    # three signal traces at different heights, phases, colors
-    traces = [
-        (C["violet"], py + 70, 22, "10 16", 0.0),
-        (C["purple"], py + 100, 14, "3 9 16 9", 1.2),
-        (C["mint"], py + 128, 9, "2 6", 2.4),
-    ]
-    rnd = random.Random(4)
-    for col, base_y, amp, dash, phase in traces:
-        pts = []
-        n = 26
-        for i in range(n + 1):
-            x = px + 24 + (pw - 48) * i / n
-            yy = base_y + math.sin(i * 0.9 + phase) * amp * 0.5 + rnd.uniform(-4, 4)
-            pts.append((x, yy))
-        d = f"M{pts[0][0]:.1f} {pts[0][1]:.1f} " + " ".join(f"L{x:.1f} {y:.1f}" for x, y in pts[1:])
-        s += (f'<path d="{d}" fill="none" stroke="{col}" stroke-width="1.8" '
-              f'stroke-dasharray="{dash}" opacity="0.85">'
-              f'<animate attributeName="stroke-dashoffset" from="0" to="-140" '
-              f'dur="{4 + phase:.1f}s" repeatCount="indefinite"/></path>')
-
-    # scrolling hex / status readout along the bottom
-    hexstr = " ".join(f"{rnd.randint(0,255):02X}" for _ in range(40))
-    s += (f'<clipPath id="hexclip"><rect x="{px+18}" y="{py+ph-40}" width="{pw-36}" height="18"/></clipPath>'
-          f'<g clip-path="url(#hexclip)" opacity="0.4">'
-          f'<text x="{px+18}" y="{py+ph-26}" font-family="{MONO}" font-size="11.5" fill="{C["purple_dim"]}">{esc(hexstr)}'
-          f'<animate attributeName="x" from="{px+18}" to="{px+18-620}" dur="26s" repeatCount="indefinite"/></text>'
-          f'</g>')
-
-    labels = [("SYSTEMS", 0.10), ("SECURITY", 0.34), ("AUTOMATION", 0.60), ("BUILD/TEST/REPEAT", 0.83)]
-    for i, (label, frac) in enumerate(labels):
-        lx = px + 20 + (pw - 40) * frac
-        dly = i * 0.4
-        s += (f'<g>{fade_in(dly, cycle, dur=0.4)}'
-              f'{txt(lx, py + ph - 12, label, fs=12, fill=C["text"], ls=1.2, weight=600)}</g>')
-
-    s += tail(w, h)
-    return s
-
-
-# ── asset 3: section divider — reusable scan-bar ──────────────────────────────
+# ── asset 2: section divider — reusable scan-bar ──────────────────────────────
 
 def build_divider():
     w, h = 1200, 34
@@ -436,7 +378,7 @@ def build_divider():
     return s
 
 
-# ── asset 4: footer signature — heartbeat / signoff ───────────────────────────
+# ── asset 3: footer signature — heartbeat / signoff ───────────────────────────
 
 def build_footer():
     w, h = 1200, 150
@@ -476,7 +418,6 @@ def build_footer():
 def main():
     os.makedirs(OUT, exist_ok=True)
     write("typing-signal.svg", build_hero())
-    write("system-pulse.svg", build_pulse())
     write("section-divider.svg", build_divider())
     write("signal-footer.svg", build_footer())
 

@@ -26,8 +26,6 @@ Isso aqui, por enquanto, está longe de ser uma lista de tecnologias que eu domi
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-<img src="./assets/system-pulse.svg" alt="Pulso animado de sistemas" width="100%" />
-
 ## `02 // foco_atual`
 
 ```bash
@@ -95,7 +93,6 @@ improving:
   - Python
   - System Administration
   - English
-approach: aprender → testar → documentar → repetir
 ```
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
