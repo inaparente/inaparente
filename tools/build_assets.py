@@ -25,14 +25,14 @@ C = {
     "panel2": "#181818",
     "line": "#3d3d3d",
     "line_soft": "#242424",
-    "violet": "#b0b0b0",
-    "purple": "#ffffff",
-    "purple_dim": "#9c9c9c",
+    "violet": "#8f7cff",
+    "purple": "#c3a8ff",
+    "purple_dim": "#9d86c9",
     "text": "#d6d6d6",
     "muted": "#6e6e6e",
-    "mint": "#ffffff",
-    "amber": "#9a9a9a",
-    "rose": "#525252",
+    "mint": "#39e0a0",
+    "amber": "#e2a63c",
+    "rose": "#e5534b",
 }
 
 MONO = "ui-monospace,'SFMono-Regular','JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace"
@@ -248,7 +248,7 @@ def status_chip_width(label, state="ok", fs=13):
     return _CHIP_PAD_L + label_w + _CHIP_GAP + mark_w + _CHIP_PAD_R
 
 
-_CHIP_STATE_TONES = {"ok": "#f0f0f0", "dev": "#b5b5b5", "warn": "#8a8a8a", "off": "#5a5a5a"}
+_CHIP_STATE_TONES = {"ok": C["mint"], "dev": C["purple"], "warn": C["amber"], "off": "#5a5a5a"}
 
 
 def status_chip(x, y, label, state="ok", fs=13):
@@ -278,7 +278,7 @@ def status_chip(x, y, label, state="ok", fs=13):
 def build_hero():
     w, h = 1200, 270
     cycle = 13.0
-    s = head(w, h, "inaparente boot sequence — animated terminal", extra_style="""
+    s = head(w, h, "fogg boot sequence — animated terminal", extra_style="""
       .term-glow{filter:url(#glow)}
     """)
     s += constellation(w, h, n=34, seed=3, opacity=0.6, link=130)
@@ -295,7 +295,7 @@ def build_hero():
     s += f'<g transform="translate({px + 20},{py + 22})">'
     for i, col in enumerate([C["rose"], C["amber"], C["mint"]]):
         s += f'<circle cx="{i * 18}" cy="0" r="5" fill="{col}" opacity="0.85"/>'
-    s += txt(70, 5, "inaparente@github — zsh", fs=12.5, fill=C["muted"], ls=0.5)
+    s += txt(70, 5, "fogg@github — zsh", fs=12.5, fill=C["muted"], ls=0.5)
     s += "</g>"
 
     lx, fs1, fs2 = px + 26, 18, 15.5
@@ -304,7 +304,7 @@ def build_hero():
 
     lines = [
         ("$ whoami", fs1, C["purple"], 0.0, 0.9),
-        ("> foggiato — systems / security / automation", fs2, C["text"], 1.05, 1.7),
+        ("> fogg — systems / security / automation", fs2, C["text"], 1.05, 1.7),
         ("$ status --watch", fs1, C["purple"], 3.05, 0.9),
     ]
     t = 0.0
@@ -343,7 +343,7 @@ def build_hero():
 def build_pulse():
     w, h = 1200, 220
     cycle = 9.0
-    s = head(w, h, "inaparente system pulse — layered telemetry")
+    s = head(w, h, "fogg system pulse — layered telemetry")
     s += constellation(w, h, n=26, seed=11, opacity=0.35, link=110)
     s += scanline_sweep(w, h, cycle=8, band=60, opacity=0.06)
 
@@ -441,14 +441,14 @@ def build_divider():
 def build_footer():
     w, h = 1200, 150
     cycle = 10.0
-    s = head(w, h, "inaparente signature — under construction")
+    s = head(w, h, "fogg signature — under construction")
     s += constellation(w, h, n=22, seed=19, opacity=0.4, link=120)
     s += hud_rings(120, 75, 100, count=2)
     s += hud_rings(w - 120, 75, 100, count=2)
 
     cx = w / 2
-    s += (f'<g opacity="0.9">'
-          f'{txt(cx, 56, "INAPARENTE", fs=30, fill=C["text"], anchor="middle", family=SERIF, ls=6, weight=600)}'
+    s += (f'<g opacity="0.95" filter="url(#glow)">'
+          f'{txt(cx, 56, "FOGG", fs=34, fill=C["purple"], anchor="middle", family=SERIF, ls=10, weight=700)}'
           f'</g>')
     s += (f'<g>{fade_in(0.3, cycle, dur=0.5)}'
           f'{txt(cx, 80, "always under construction", fs=13, fill=C["purple_dim"], anchor="middle", ls=2)}'

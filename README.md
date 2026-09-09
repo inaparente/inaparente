@@ -8,7 +8,7 @@
 
 <img src="./assets/typing-signal.svg" alt="Animated terminal signal" width="100%" />
 
-`inaparente@github:~$ whoami`
+`fogg@github:~$ whoami`
 
 </div>
 
@@ -133,6 +133,6 @@ Check the repos. Read the commits. That's the real bio.
 
 <br/>
 
-<img src="./assets/signal-footer.svg" alt="Animated signature — INAPARENTE, always under construction" width="100%" />
+<img src="./assets/signal-footer.svg" alt="Animated signature, FOGG, always under construction" width="100%" />
 
 </div>
