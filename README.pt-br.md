@@ -22,12 +22,6 @@ Estou construindo, aos poucos, minha base de conhecimento em DevSecOps: Linux, r
 
 De cada lab, script ou experimento eu costumo sair documentando, geralmente porque me perguntei "beleza, mas será que eu consigo fazer isso funcionar de verdade?"
 
-Isso aqui, por enquanto, está longe de ser uma lista de tecnologias que eu domino. É mais um diário do que estou **aprendendo, testando e, aos poucos, ACERTANDO**. Errar também é bem notório por aqui, rs.
-
-<img src="./assets/section-divider.svg" alt="" width="100%" />
-
-## `02 // foco_atual`
-
 ```bash
 $ cat focus.txt
 
@@ -40,11 +34,13 @@ automation
 ai_integrations
 ```
 
-Ultimamente tenho puxado mais para **IAM e Cloud Security**, mas nada disso se sustenta sem uma base sólida em sistemas e redes. É ali que boa parte do trabalho do dia a dia ainda acontece.
+Ultimamente tenho puxado mais para **IAM e Cloud Security**, mas nada disso se sustenta sem uma base sólida em sistemas e redes.
+
+Isso aqui, por enquanto, está longe de ser uma lista de tecnologias que eu domino. É mais um diário do que estou **aprendendo, testando e, aos poucos, ACERTANDO**. Errar também é bem notório por aqui, rs.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## `03 // como_aprendo`
+## `02 // como_aprendo`
 
 Teoria sozinha não gruda em mim, preciso de um lugar para colocar esse conhecimento na massa.
 
@@ -53,33 +49,15 @@ entender → testar → quebrar algo → descobrir o porquê
        → reconstruir direito → documentar o que importou
 ```
 
+Meus projetos costumam viver na sobreposição entre `security · linux · automation · APIs · AI · interfaces · infrastructure`. O que realmente me prende é fazer peças diferentes conversarem de forma confiável, não mais uma demo isolada que só roda na minha máquina.
+
+Um dos exemplos é o **Jarvis Bridge**: começou como um "deixa eu tentar construir um assistente de voz local" e foi silenciosamente virando um playground de interação por voz, automação local, APIs, integrações de IA, comportamento de sistema, tratamento de eventos e confiabilidade, basicamente todo jeito possível de um humano e uma máquina se entenderem mal. Não finjo que construí o JARVIS do Homem de Ferro, a parte interessante é tudo que eu tive que aprender só de tentar.
+
 Dá uma olhada nos meus repositórios: você vai ver esse loop se repetindo, com certeza.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## `04 // o_que_construo`
-
-Meus projetos costumam viver na sobreposição entre:
-
-```text
-security · linux · automation · APIs · AI · interfaces · infrastructure
-```
-
-O que realmente me prende é fazer peças diferentes conversarem de forma confiável, não mais uma demo isolada que só roda na minha máquina.
-
-<img src="./assets/section-divider.svg" alt="" width="100%" />
-
-## `05 // jarvis_bridge`
-
-Um desses experimentos virou o **Jarvis Bridge**.
-
-Começou como um "deixa eu tentar construir um assistente de voz local" e foi silenciosamente virando um playground de interação por voz, automação local, APIs, integrações de IA, comportamento de sistema, tratamento de eventos e confiabilidade, basicamente todo jeito possível de um humano e uma máquina se entenderem mal.
-
-Não finjo que construí o JARVIS do Homem de Ferro. A parte interessante é tudo que eu tive que aprender só de tentar.
-
-<img src="./assets/section-divider.svg" alt="" width="100%" />
-
-## `06 // stack_em_progresso`
+## `03 // stack_em_progresso`
 
 <div align="center">
 <img src="https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&logo=linux&logoColor=E5E5E5" alt="Linux" />
@@ -94,7 +72,7 @@ Não finjo que construí o JARVIS do Homem de Ferro. A parte interessante é tud
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## `07 // fora_do_terminal`
+## `04 // fora_do_terminal`
 
 Tecnologia consome a maior parte da minha tela. O que sobra vai geralmente para **estética digital, identidade visual, música, Marvel, animes e qualquer ideia aleatória que pareça valer a pena virar projeto**.
 

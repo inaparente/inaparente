@@ -22,12 +22,6 @@ I'm building, piece by piece, my base of knowledge in DevSecOps: Linux, networki
 
 Every lab, script, or experiment I try usually ends up documented, mostly because at some point I asked myself "okay, but can I actually make this work for real?"
 
-For now, this is far from a list of technologies I've mastered. It's more of a logbook of what I'm **learning, testing, and slowly getting RIGHT**. Getting things wrong is pretty notorious around here too, lol.
-
-<img src="./assets/section-divider.svg" alt="" width="100%" />
-
-## `02 // current_focus`
-
 ```bash
 $ cat focus.txt
 
@@ -40,11 +34,13 @@ automation
 ai_integrations
 ```
 
-Lately I've been leaning more toward **IAM and Cloud Security**, but none of that holds up without a solid base in systems and networking. That's still where most of the day to day work happens.
+Lately I've been leaning more toward **IAM and Cloud Security**, but none of that holds up without a solid base in systems and networking.
+
+For now, this is far from a list of technologies I've mastered. It's more of a logbook of what I'm **learning, testing, and slowly getting RIGHT**. Getting things wrong is pretty notorious around here too, lol.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## `03 // how_i_learn`
+## `02 // how_i_learn`
 
 Theory alone doesn't stick with me, I need somewhere to put it into practice.
 
@@ -53,33 +49,15 @@ understand → test → break something → figure out why
        → rebuild it properly → document what mattered
 ```
 
+My projects tend to live in the overlap between `security · linux · automation · APIs · AI · interfaces · infrastructure`. What actually hooks me is getting different pieces to talk to each other reliably, not another isolated demo that only runs on my machine.
+
+One example is **Jarvis Bridge**: it started as "let me try building a local voice assistant" and quietly turned into a playground for voice interaction, local automation, APIs, AI integrations, system behavior, event handling and reliability, basically every possible way for a human and a machine to misunderstand each other. I'm not pretending I built Iron Man's JARVIS, the interesting part is everything I had to learn just from trying.
+
 Take a look at my repos: you'll see that loop repeating itself, for sure.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## `04 // things_i_build`
-
-My projects tend to live in the overlap between:
-
-```text
-security · linux · automation · APIs · AI · interfaces · infrastructure
-```
-
-What actually hooks me is getting different pieces to talk to each other reliably, not another isolated demo that only runs on my machine.
-
-<img src="./assets/section-divider.svg" alt="" width="100%" />
-
-## `05 // jarvis_bridge`
-
-One of those experiments turned into **Jarvis Bridge**.
-
-It started as "let me try building a local voice assistant" and quietly turned into a playground for voice interaction, local automation, APIs, AI integrations, system behavior, event handling and reliability, basically every possible way for a human and a machine to misunderstand each other.
-
-I'm not pretending I built Iron Man's JARVIS. The interesting part is everything I had to learn just from trying.
-
-<img src="./assets/section-divider.svg" alt="" width="100%" />
-
-## `06 // stack_in_progress`
+## `03 // stack_in_progress`
 
 <div align="center">
 <img src="https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&logo=linux&logoColor=E5E5E5" alt="Linux" />
@@ -94,7 +72,7 @@ I'm not pretending I built Iron Man's JARVIS. The interesting part is everything
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## `07 // outside_the_terminal`
+## `04 // outside_the_terminal`
 
 Tech eats up most of my screen time. What's left usually goes to **digital aesthetics, visual identity, music, Marvel, anime, and whatever random idea seems worth turning into a project**.
 
