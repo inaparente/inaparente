@@ -1,7 +1,5 @@
 <div align="center">
 
-# FOGGIATO
-
 <sub>`lang:` [EN](./README.md) · **PT-BR**</sub>
 
 <img src="./assets/typing-signal.svg" alt="Sinal de terminal animado" width="100%" />
