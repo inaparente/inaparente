@@ -17,21 +17,23 @@ Uma identidade técnica, calma e precisa. Ela deve parecer o ambiente de alguém
 
 | Papel | Cor | Uso |
 | --- | --- | --- |
-| Fundo | `#0B0E14` | Fundo principal, GitHub e laboratório. |
-| Superfície | `#131924` | Cards, blocos de código e navegação. |
-| Texto | `#E6EDF3` | Texto principal. |
-| Texto secundário | `#9BA8B7` | Contexto e metadados. |
-| Sinal | `#60D394` | Estados positivos, links e progresso. |
-| Acento | `#7AA2F7` | Navegação, foco e tecnologia. |
-| Atenção | `#F6C177` | Aprendizados, alertas e experimentos. |
+| Fundo | `#08090D` | Fundo principal do domínio pessoal. |
+| Superfície | `#11121A` | Cards, blocos de código e navegação. |
+| Linha | `#292B36` | Divisores discretos. |
+| Texto | `#F1F0ED` | Texto principal. |
+| Texto secundário | `#AAAAB3` | Contexto e metadados. |
+| Acento | `#A78BFA` | Eyebrows, links, foco — a cor de identidade. |
+| Acento claro | `#D6C9FF` | Contraste editorial (itálico em serif). |
+| Sinal | `#74E6AD` | Progresso e estados positivos — uso pontual, nunca como preenchimento dominante. |
 
-Usar o verde como sinal, não como preenchimento dominante. Evitar neon excessivo, caveiras, códigos falsos e imagens associadas a invasão.
+Evitar neon excessivo, caveiras, códigos falsos e imagens associadas a invasão — e evitar também estética "corporate cyber genérica": grafos de nós brilhando, anéis de radar, texturas de rocha facetada, wordmarks em blackletter/gótico. Esses recursos comunicam o oposto da proposta (humano, em formação) e tendem a parecer gerados por IA.
 
 ## Tipografia
 
-- Interface e texto: `Inter` ou `Instrument Sans`.
-- Código, rótulos e metadados: `JetBrains Mono` ou `IBM Plex Mono`.
-- Títulos: sans serif com peso 600–700; evitar fonte “cyberpunk”.
+- Interface e texto: `Manrope` (peso 400–700).
+- Contraste editorial: `Instrument Serif`, itálico, reservado para uma linha de destaque por vez (ex.: o segundo verso do H1 do hero).
+- Rótulos, eyebrows e metadados: `DM Mono`.
+- Evitar fontes "cyberpunk", góticas ou com serifas dramáticas — a serifa do sistema é humanista e editorial, não decorativa.
 
 ## Componentes e composição
 
