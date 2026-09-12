@@ -12,9 +12,9 @@
 
 ## `01 // about`
 
-Hey, I'm **Pedro Foggiato**, welcome to my profile!
+Hey, I'm **Pedro Foggiato**, a DevSecOps student building from full-stack foundations.
 
-I'm building, piece by piece, my base of knowledge in DevSecOps: Linux, networking, cloud, IAM, AWS, defensive security, and understanding how attacks actually work. I like digging deep to understand a problem or a system, that's what teaches me how to use it and how to defend it. That curiosity has already burned me a few times, but here we go anyway:
+I'm building, piece by piece, my base of knowledge in DevSecOps: Linux, networking, cloud, IAM, AWS, defensive security, and understanding how attacks actually work. My experience building web products — including as founder of Uzzo Solutions — is the practical base for this transition. I like digging deep to understand a problem or a system, that's what teaches me how to use it and how to defend it.
 
 Every lab, script, or experiment I try usually ends up documented, mostly because at some point I asked myself "okay, but can I actually make this work for real?"
 

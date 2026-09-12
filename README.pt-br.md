@@ -12,9 +12,9 @@
 
 ## `01 // sobre`
 
-Salve, eu sou o **Pedro Foggiato**, bem-vindo(a) ao meu perfil!
+Salve, eu sou o **Pedro Foggiato**, estudante de DevSecOps construindo sobre uma base Full Stack.
 
-Estou construindo, aos poucos, minha base de conhecimento em DevSecOps: Linux, redes, cloud, IAM, AWS, segurança defensiva e entendimento de como ataques realmente funcionam. Gosto de ir a fundo pra entender um problema ou sistema, é isso que me ensina a usá-lo e a defendê-lo. Essa curiosidade já me ferrou algumas vezes, mas segue o jogo:
+Estou construindo, aos poucos, minha base de conhecimento em DevSecOps: Linux, redes, cloud, IAM, AWS, segurança defensiva e entendimento de como ataques realmente funcionam. Minha experiência construindo produtos web — inclusive como fundador da Uzzo Solutions — é a base prática dessa transição. Gosto de ir a fundo pra entender um problema ou sistema, é isso que me ensina a usá-lo e a defendê-lo.
 
 De cada lab, script ou experimento eu costumo sair documentando, geralmente porque me perguntei "beleza, mas será que eu consigo fazer isso funcionar de verdade?"
 
